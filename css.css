@@ -1,0 +1,861 @@
+/*Configuração do body e seu background  ------------------------------------------------------------------------------*/
+body {
+    background: #E5E5E5;
+    width: 414px;
+    
+}
+
+/*Cabeçalho do site - DEVE FICAR FIXO  ---------------------------------------------------------------------------------*/
+.retangulo1 {
+    position: fixed;
+width: 414px;
+height: 92px;
+left: 0px;
+top: 0px;
+z-index: 10;
+
+background: #CF2B2B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    position: fixed;
+width: 248px;
+height: 44px;
+left: 21px;
+top: -20px;
+
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 55px;
+letter-spacing: -0.012em;
+
+color: #FFFFFF;
+}
+
+h2 {
+    position: fixed;
+width: 226px;
+height: 17px;
+left: 21px;
+top: 40px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+
+/*PARTE FINAL - Finalizar pedido - DEVE FICAR FIXO ------------------------------------------------------------------------ */
+.finalização {
+    position: fixed;
+width: 414px;
+height: 92px;
+left: 0px;
+bottom: 0px;
+
+
+background: #FFFFFF;
+}
+
+.selecione {
+    position: absolute;
+width: 364px;
+height: 61px;
+left: 25px;
+bottom: 15px;
+z-index: 10;
+
+background: #CBCBCB;
+border-radius: 50px;
+}
+
+h10 {
+    position: absolute;
+width: 364px;
+height: 53px;
+left: 3px;
+bottom: -12px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.018em;
+
+color: #FFFFFF;
+}
+
+/*Selecione o prato --------------------------------------------------------------------------------------------- */
+.pratos {
+    position: absolute;
+width: 414px;
+height: 420px;
+left: 0px;
+top: 0px;
+overflow-x: scroll;
+}
+
+/*Prato 1 --------------------------------------------------------------------------------------------- */
+h3 {
+    position: absolute;
+width: 250px;
+height: 25px;
+left: 19px;
+top: 90px;
+
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 32px;
+letter-spacing: 0.018em;
+
+color: #333333;
+}
+
+.prato1 {
+    position: absolute;
+width: 172px;
+height: 216px;
+left: 19px;
+top: 165px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+}
+
+.prato1 div img {
+    position: absolute;
+width: 144px;
+height: 87px;
+left: 14px;
+top: 14px;
+
+background: url(frango_yin_yang.png);
+border-radius: 4px;
+}
+
+.nomeprato1 {
+    position: absolute;
+width: 139px;
+height: 23px;
+left: 14px;
+top: 90px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+}
+
+.textoprato1 {
+    position: absolute;
+width: 147px;
+height: 39px;
+left: 15px;
+top: 115px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #A6A6A6;
+}
+
+.preçoprato1 {
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    left: 15px;
+    top: 160px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+/*Prato 2 --------------------------------------------------------------------------------------------- */
+.prato2 {
+    position: absolute;
+    width: 172px;
+    height: 216px;
+    left: 207px;
+    top: 165px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;}
+
+.prato2 div img {
+        position: absolute;
+    width: 144px;
+    height: 87px;
+    left: 14px;
+    top: 14px;
+    
+    background: url(frango_yin_yang.png);
+    border-radius: 4px;
+}
+
+.nomeprato2 {
+    position: absolute;
+width: 139px;
+height: 23px;
+left: 14px;
+top: 90px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+}
+
+.textoprato2 {
+    position: absolute;
+width: 147px;
+height: 39px;
+left: 15px;
+top: 115px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #A6A6A6;
+}
+
+.preçoprato2 {
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    left: 15px;
+    top: 160px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+/*Prato 3 --------------------------------------------------------------------------------------------- */
+.prato2 h3 {
+    position: absolute;
+width: 300px;
+height: 25px;
+left: 19px;
+top: 90px;
+
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 32px;
+letter-spacing: 0.018em;
+
+color: #333333;
+}
+
+.prato3 {
+      position: absolute;
+        width: 172px;
+        height: 216px;
+        left: 395px;
+        top: 165px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+        border-radius: 9px;}
+        
+
+.prato3 div img {
+    position: absolute;
+width: 144px;
+height: 87px;
+left: 14px;
+top: 14px;
+
+background: url(frango_yin_yang.png);
+border-radius: 4px;
+}
+
+.nomeprato3 {
+    position: absolute;
+width: 139px;
+height: 23px;
+left: 14px;
+top: 90px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+}
+
+.textoprato3 {
+    position: absolute;
+width: 147px;
+height: 39px;
+left: 15px;
+top: 115px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #A6A6A6;
+}
+
+.preçoprato3 {
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    left: 15px;
+    top: 160px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+
+
+/*Selecione a bebida ------------------------------------------------------------------------------------------------ */
+.bebidas {
+    position: absolute;
+width: 414px;
+height: 720px;
+left: 0px;
+top: 0px;
+overflow-x: scroll;
+}
+
+/*Bebida1 --------------------------------------------------------------------------------------------- */
+h5 {
+    position: absolute;
+width: 250px;
+height: 25px;
+left: 19px;
+top: 370px;
+
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 32px;
+letter-spacing: 0.018em;
+
+color: #333333;
+}
+
+.bebida1 {
+    position: absolute;
+width: 172px;
+height: 216px;
+left: 19px;
+top: 460px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+}
+
+.bebida1 div img {
+    position: absolute;
+width: 144px;
+height: 87px;
+left: 14px;
+top: 14px;
+
+background: url(frango_yin_yang.png);
+border-radius: 4px;
+}
+
+.nomebebida1 {
+    position: absolute;
+width: 139px;
+height: 23px;
+left: 14px;
+top: 90px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+}
+
+.textobebida1 {
+    position: absolute;
+width: 147px;
+height: 39px;
+left: 15px;
+top: 115px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #A6A6A6;
+}
+
+.preçobebida1 {
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    left: 15px;
+    top: 160px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+/*Bebida 2 --------------------------------------------------------------------------------------------- */
+.bebida2 {
+    position: absolute;
+    width: 172px;
+    height: 216px;
+    left: 207px;
+    top: 460px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;}
+
+.bebida2 div img {
+        position: absolute;
+    width: 144px;
+    height: 87px;
+    left: 14px;
+    top: 14px;
+
+    border-radius: 4px;
+}
+
+.nomebebida2 {
+    position: absolute;
+width: 139px;
+height: 23px;
+left: 14px;
+top: 90px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+}
+
+.textobebida2 {
+    position: absolute;
+width: 147px;
+height: 39px;
+left: 15px;
+top: 115px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #A6A6A6;
+}
+
+.preçobebida2 {
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    left: 15px;
+    top: 160px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+/*Bebida 3 --------------------------------------------------------------------------------------------- */
+.bebida3 {
+      position: absolute;
+        width: 172px;
+        height: 216px;
+        left: 395px;
+        top: 460px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+        border-radius: 9px;}
+
+.bebida3 div img {
+    position: absolute;
+width: 144px;
+height: 87px;
+left: 14px;
+top: 14px;
+
+background: url(frango_yin_yang.png);
+border-radius: 4px;
+}
+
+.nomebebida3 {
+    position: absolute;
+width: 139px;
+height: 23px;
+left: 14px;
+top: 90px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+}
+
+.textobebida3 {
+    position: absolute;
+width: 147px;
+height: 39px;
+left: 15px;
+top: 115px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #A6A6A6;
+}
+
+.preçobebida3 {
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    left: 15px;
+    top: 160px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+
+
+
+/*Selecione a sobremesa -------------------------------------------------------------------------------------------- */
+.sobremesas {
+    position: absolute;
+width: 414px;
+height: 1075px;
+left: 0px;
+top: 0px;
+overflow-x: scroll;
+}
+
+/*Sobremesa1 --------------------------------------------------------------------------------------------- */
+h6 {
+    position: absolute;
+width: 300px;
+height: 25px;
+left: 19px;
+top: 650px;
+
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 32px;
+letter-spacing: 0.018em;
+
+color: #333333;
+}
+
+.sobremesa1 {
+    position: absolute;
+width: 172px;
+height: 216px;
+left: 19px;
+top: 760px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+}
+
+.sobremesa1 div img {
+    position: absolute;
+width: 144px;
+height: 87px;
+left: 14px;
+top: 14px;
+
+border-radius: 4px;
+}
+
+.nomesobremesa1 {
+    position: absolute;
+width: 139px;
+height: 23px;
+left: 14px;
+top: 90px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+}
+
+.textosobremsa1 {
+    position: absolute;
+width: 147px;
+height: 39px;
+left: 15px;
+top: 115px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #A6A6A6;
+}
+
+.preçosobremesa1 {
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    left: 15px;
+    top: 160px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+/*Sobremesa 2 --------------------------------------------------------------------------------------------- */
+.sobremesa2 {
+    position: absolute;
+    width: 172px;
+    height: 216px;
+    left: 207px;
+    top: 760px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;}
+
+.sobremesa2 div img {
+        position: absolute;
+    width: 144px;
+    height: 87px;
+    left: 14px;
+    top: 14px;
+
+    border-radius: 4px;
+}
+
+.nomesobremesa2 {
+    position: absolute;
+width: 139px;
+height: 23px;
+left: 14px;
+top: 90px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+}
+
+.textosobremesa2 {
+    position: absolute;
+width: 147px;
+height: 39px;
+left: 15px;
+top: 115px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #A6A6A6;
+}
+
+.preçosobremesa2 {
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    left: 15px;
+    top: 160px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+/*Sobremesa 3 --------------------------------------------------------------------------------------------- */
+.sobremesa3 {
+      position: absolute;
+        width: 172px;
+        height: 216px;
+        left: 395px;
+        top: 760px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+        border-radius: 9px;}
+
+.sobremesa3 div img {
+    position: absolute;
+width: 144px;
+height: 87px;
+left: 14px;
+top: 14px;
+
+background: url(frango_yin_yang.png);
+border-radius: 4px;
+}
+
+.nomesobremesa3 {
+    position: absolute;
+width: 139px;
+height: 23px;
+left: 14px;
+top: 90px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+}
+
+.textosobremesa3 {
+    position: absolute;
+width: 147px;
+height: 39px;
+left: 15px;
+top: 115px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #A6A6A6;
+}
+
+.preçosobremesa3 {
+    position: absolute;
+    width: 66px;
+    height: 19px;
+    left: 15px;
+    top: 160px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.pratoclicado {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25),
+    inset 0px 0px 0px 5px #32b72f;
+  color: #32b72f;
+}
